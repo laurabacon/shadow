@@ -1,0 +1,58 @@
+/* Element Style Tags */
+* {
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding-right: 1rem;
+};
+
+nav ul li {
+    padding-right: 1rem;
+};
+
+
+
+/* classes */
+
+
+
+
+
+
+
+/* Ids */
+
+#nav-links {
+    padding: 1rem;
+};
+
+
+
+
+
+
+
+
+/* media querys */
+
+@media screen and (max-width 768px) {
+    * {
+        flex-direction: column;
+        align-items: center;
+        margin: .5rem;
+    };
+
+};
+
+@media screen and (max-width: 390px) {
+    * {
+        
+};
